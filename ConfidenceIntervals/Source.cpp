@@ -62,4 +62,5 @@ int main()
 		L[i].UpL = UpLimit(a, CL);
 		fout << L[i].estimate << ' ' << L[i].DownL << ' ' << L[i].UpL << endl;
 	}
+	cout << CL << endl;
 } 
